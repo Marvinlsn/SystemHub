@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/auth/")
 @CrossOrigin(origins = { "*" })
 public class AuthController {
     
