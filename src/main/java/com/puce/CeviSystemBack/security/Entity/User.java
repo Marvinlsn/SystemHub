@@ -1,4 +1,4 @@
-package com.CeviSystemBack.security.Entity;
+package com.puce.CeviSystemBack.security.Entity;
 
 import java.util.Collection;
 import java.util.List;

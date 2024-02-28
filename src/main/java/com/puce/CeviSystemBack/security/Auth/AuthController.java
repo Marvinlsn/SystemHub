@@ -1,4 +1,4 @@
-package com.CeviSystemBack.security.Auth;
+package com.puce.CeviSystemBack.security.Auth;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/auth/")
+@RequestMapping("/auth")
 @CrossOrigin(origins = { "*" })
 public class AuthController {
     

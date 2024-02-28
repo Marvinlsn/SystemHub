@@ -1,4 +1,4 @@
-package com.CeviSystemBack.security.Auth;
+package com.puce.CeviSystemBack.security.Auth;
 
 public class RegisterRequest {
 

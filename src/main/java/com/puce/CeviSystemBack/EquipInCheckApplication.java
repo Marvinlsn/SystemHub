@@ -1,4 +1,4 @@
-package com.CeviSystemBack;
+package com.puce.CeviSystemBack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

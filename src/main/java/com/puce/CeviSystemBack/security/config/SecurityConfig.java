@@ -1,4 +1,4 @@
-package com.CeviSystemBack.security.config;
+package com.puce.CeviSystemBack.security.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.CeviSystemBack.security.Jwt.JwtAuthenticationFilter;
+import com.puce.CeviSystemBack.security.Jwt.JwtAuthenticationFilter;
 
 
 @Configuration
@@ -33,7 +33,6 @@ public class SecurityConfig {
             .authorizeHttpRequests(authRequest ->
               authRequest
                 .requestMatchers("/auth/**").permitAll()
-                .requestMatchers("/api/usuarios/**").permitAll()
                 .requestMatchers("/swagger-ui/**", "/v3/api-docs/**", "/swagger-ui.html").permitAll()
                 .anyRequest().authenticated()
                 )

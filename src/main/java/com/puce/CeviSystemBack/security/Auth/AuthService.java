@@ -1,4 +1,4 @@
-package com.CeviSystemBack.security.Auth;
+package com.puce.CeviSystemBack.security.Auth;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -11,9 +11,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.CeviSystemBack.security.Entity.User;
-import com.CeviSystemBack.security.Entity.UserRepository;
-import com.CeviSystemBack.security.Jwt.JwtService;
+import com.puce.CeviSystemBack.security.Entity.User;
+import com.puce.CeviSystemBack.security.Entity.UserRepository;
+import com.puce.CeviSystemBack.security.Jwt.JwtService;
 
 @Service
 public class AuthService {
